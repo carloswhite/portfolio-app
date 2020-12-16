@@ -26,10 +26,10 @@ export default function NavBar() {
 
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
-                    <SocialIcon url="https://www.linkedin.com/in/carlos-a-blanco01" className="mr-4" target="_blank" fgColor="#000000" bgColor="#E7732D" style={{height: 35, width: 35}} />
-                    <SocialIcon url="https://github.com/carloswhite" className="mr-4" target="_blank" fgColor="#000000" bgColor="#E7732D" style={{height: 35, width: 35}} />
-                    <SocialIcon url="https://www.behance.net/carlosblanco5" className="mr-4" target="_blank" fgColor="#222222" bgColor="#E7732D" style={{height: 35, width: 35}} />
-                    <SocialIcon url="https://dribbble.com/therealcarlosblanco" className="mr-4" target="_blank" fgColor="#222222" bgColor="#E7732D" style={{height: 35, width: 35}} />
+                    <SocialIcon url="https://www.linkedin.com/in/carlos-a-blanco01" className="mr-4" target="_blank" fgColor="#000000" bgColor="#4B7197" style={{height: 35, width: 35}} />
+                    <SocialIcon url="https://github.com/carloswhite" className="mr-4" target="_blank" fgColor="#000000" bgColor="#4B7197" style={{height: 35, width: 35}} />
+                    <SocialIcon url="https://www.behance.net/carlosblanco5" className="mr-4" target="_blank" fgColor="#222222" bgColor="#4B7197" style={{height: 35, width: 35}} />
+                    <SocialIcon url="https://dribbble.com/therealcarlosblanco" className="mr-4" target="_blank" fgColor="#222222" bgColor="#4B7197" style={{height: 35, width: 35}} />
                 </div>
             </div>
         </header>
