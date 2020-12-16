@@ -8,12 +8,8 @@ export default function NavBar() {
         <header className="bg-gray-800">
             <div className="container mx-auto flex justify-between">
                 <nav className="flex">
-                    <NavLink to="/" exact activeClassName="text-yellow-500" className="inflex-flex items-center py-6 px-3 mr-4 text-gray-100 hover:text-yellow-500 text-3xl font-bold cursive tracking-widest">
+                    <NavLink to="/" exact activeClassName="text-yellow-500" className="inflex-flex items-center py-8 px-4 mr-4 text-gray-100 hover:text-yellow-500 text-3xl font-bold cursive tracking-widest">
                         @carloswhite
-                    </NavLink>
-
-                    <NavLink to="/post" exact activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
-                        Blog
                     </NavLink>
 
                     <NavLink to="/project" activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
@@ -23,6 +19,11 @@ export default function NavBar() {
                     <NavLink to="/about" activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
                         About Me
                     </NavLink>
+
+                    <NavLink to="/post" exact activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
+                        Blog
+                    </NavLink>
+
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon url="https://www.linkedin.com/in/carlos-a-blanco01" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} />
