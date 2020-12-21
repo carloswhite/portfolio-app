@@ -20,7 +20,7 @@ export default function Project() {
     return (
         <main className="min-h-screen p-12">
             <section className="container mx-auto">
-                <h1 className="text-5xl text-white flex justify-center cursive">These are some of the projects I've worked on</h1>
+                <h1 className="text-5xl text-white flex justify-center cursive">These are some of the projects I've worked on:</h1>
                 <h2 className="text-lg text-gray-900 flex justify-center mb-12">...</h2>
                 <section className="grid grid-cols-2 gap-8">
                     {projectData && projectData.map((project, index) => (
@@ -43,7 +43,7 @@ export default function Project() {
                                 {project.place}
                             </span>
                             <span>
-                                <strong className="font-bold"> Type</strong>:{" "}
+                                <strong className="font-bold">Type</strong>:{" "}
                                 {project.projectType}
                             </span>
                             <p className="my-6 text-lg text-gray-700 leading-relaxed">
