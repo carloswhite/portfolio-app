@@ -12,16 +12,12 @@ export default function NavBar() {
                         @carloswhite
                     </NavLink>
 
-                    <NavLink to="/project" activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
-                        Projects
-                    </NavLink>
-
                     <NavLink to="/about" activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
                         About Me
                     </NavLink>
 
                     <NavLink to="/post" exact activeClassName="text-yellow-400" className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-yellow-500">
-                        Blog
+                        Project Blog
                     </NavLink>
 
                 </nav>
