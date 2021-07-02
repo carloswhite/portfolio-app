@@ -12,7 +12,7 @@ Portfolio/Blog built using ReactJS, TailwindCSS, and powered by Sanity.io
 Clone the project
 
 ```bash
-  git clone https://github.com/carloswhite/portfolio-app.git
+  git clone https://github.com/carlosblanc0/portfolio-app.git
 ```
 
 Go to the project directory
