@@ -6,6 +6,7 @@
 ![Netlify](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 Portfolio/Blog built using ReactJS, TailwindCSS, and powered by Sanity.io
+![portfolio](portfolio-gif.gif)
 
 ## Run Locally
 
